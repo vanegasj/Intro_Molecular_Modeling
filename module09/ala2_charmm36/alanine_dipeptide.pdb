@@ -1,0 +1,28 @@
+TITLE     Georgetown Riga Oslo Madrid Amsterdam Chisinau Stockholm
+REMARK    THIS IS A SIMULATION BOX
+CRYST1   27.222   27.222   27.222  90.00  90.00  90.00 P 1           1
+MODEL        1
+ATOM      1 HH31 ACE X   1      14.644  17.276  15.674  1.00  0.00           H
+ATOM      2  CH3 ACE X   1      15.139  16.419  15.218  1.00  0.00           C
+ATOM      3 HH32 ACE X   1      15.507  15.754  15.999  1.00  0.00           H
+ATOM      4 HH33 ACE X   1      15.976  16.763  14.610  1.00  0.00           H
+ATOM      5  C   ACE X   1      14.189  15.649  14.338  1.00  0.00           C
+ATOM      6  O   ACE X   1      13.019  15.999  14.198  1.00  0.00           O
+ATOM      7  N   ALA X   2      14.689  14.489  13.798  1.00  0.00           N
+ATOM      8  H   ALA X   2      15.678  14.320  13.918  1.00  0.00           H
+ATOM      9  CA  ALA X   2      13.899  13.539  12.918  1.00  0.00           C
+ATOM     10  HA  ALA X   2      13.152  14.164  12.429  1.00  0.00           H
+ATOM     11  CB  ALA X   2      14.889  13.009  11.838  1.00  0.00           C
+ATOM     12  HB1 ALA X   2      15.638  12.374  12.311  1.00  0.00           H
+ATOM     13  HB2 ALA X   2      14.341  12.431  11.094  1.00  0.00           H
+ATOM     14  HB3 ALA X   2      15.382  13.851  11.352  1.00  0.00           H
+ATOM     15  C   ALA X   2      13.149  12.439  13.598  1.00  0.00           C
+ATOM     16  O   ALA X   2      13.759  11.729  14.388  1.00  0.00           O
+ATOM     17  N   NME X   3      11.819  12.279  13.318  1.00  0.00           N
+ATOM     18  H   NME X   3      11.411  12.967  12.701  1.00  0.00           H
+ATOM     19  CH3 NME X   3      10.949  11.199  13.838  1.00  0.00           C
+ATOM     20 HH31 NME X   3      11.531  10.542  14.484  1.00  0.00           H
+ATOM     21 HH32 NME X   3      10.129  11.635  14.408  1.00  0.00           H
+ATOM     22 HH33 NME X   3      10.546  10.624  13.005  1.00  0.00           H
+TER
+ENDMDL

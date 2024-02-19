@@ -1,0 +1,37 @@
+integrator              = steep
+dt                      = 0.002
+nsteps                  = 1000
+nstcalcenergy           = 10
+nstenergy               = 10
+nstlog                  = 10
+nstxout                 = 10
+nstxout-compressed      = 10
+;
+cutoff-scheme           = Verlet
+nstlist                 = 20
+rlist                   = 1.0
+vdwtype                 = Cut-off
+vdw-modifier            = Potential-shift-Verlet
+rvdw                    = 1.0
+coulombtype             = PME
+rcoulomb                = 1.0
+DispCorr                = EnerPres
+;
+tcoupl                  = v-rescale
+tc_grps                 = System
+tau_t                   = 1.0
+ref_t                   = 310
+;
+pcoupl                  = c-rescale
+pcoupltype              = isotropic
+tau_p                   = 5.0
+compressibility         = 4.5e-5
+ref_p                   = 1.0
+;
+constraints             = h-bonds
+constraint_algorithm    = LINCS
+;
+nstcomm                 = 100
+comm_mode               = linear
+comm_grps               = System
+;

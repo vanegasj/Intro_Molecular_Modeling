@@ -1,0 +1,8 @@
+#include "argon.itp"
+
+[system]
+Argon
+
+[molecules]
+MOL 864
+

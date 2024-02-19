@@ -1,0 +1,37 @@
+; Comment lines in gromacs files start with a semicolon
+
+integrator          = md-vv     ; use the velocity-verlet algorithm to integrate the equations of motion
+tinit               = 0.0
+dt                  = 0.002     ; time step
+nsteps              = 10000     ; number of time steps
+
+nstlog              = 100       ; frequency to write to the log file
+nstcalcenergy       = 100       ; frequency to compute the system energy
+nstenergy           = 100       ; frequency to write energy and other system quantities to file
+nstxout-compressed  = 100       ; frequency to write the particles' positions to a file
+
+cutoff-scheme       = Verlet
+ns_type             = grid
+pbc                 = xyz
+
+vdwtype             = Cut-off
+vdw-modifier        = Potential-Shift-Verlet
+rvdw                = 1.1
+rcoulomb            = 1.1
+rlist               = 1.1
+
+tcoupl              = no        ; set to 'no' for constant energy simulation or 'v-rescale' for constant T
+tc_grps             = System
+tau_t               = 0.4
+ref_t               = 100
+
+pcoupl              = no        ; set to 'no' for constant volume simulations or 'c-rescale' for constant P
+pcoupltype          = isotropic
+tau_p               = 4.0
+ref_p               = 10
+compressibility     = 0.49e-4
+
+gen_vel             = yes       ; generate initial velocities from a Maxwell-Boltzmann distribution
+gen_temp            = 100       ; temperature for initial velocity generation
+gen_seed            = -1        ; random number generation seed, leave at -1
+
